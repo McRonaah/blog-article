@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 
 const   Create = () =>{
@@ -6,7 +7,7 @@ const   Create = () =>{
     const [author, setAuthor] = useState ("ronald")
     return (
         <div className="create">
-            <h1>Add a blog</h1>
+            <h1>Blog</h1>
             <form>
                 <label>Blog Title</label>
                 <input
