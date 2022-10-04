@@ -4,7 +4,7 @@ import { useState } from "react";
 const   Create = () =>{
     const [title, setTitle] = useState("");
     const [body, setBody] = useState("")
-    const [author, setAuthor] = useState ("ronald")
+    const [author, setAuthor] = useState ("Ronald")
     return (
         <div className="create">
             <h1>Blog</h1>
